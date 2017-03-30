@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/landscape"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="stiffness 生硬度" />
+    <SeekBar
+        android:id="@+id/stiffness"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+          />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="damping 阻 尼" />
+
+    <SeekBar
+        android:id="@+id/damping"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+          />
+
+
+
+</LinearLayout>
